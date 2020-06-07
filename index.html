@@ -348,7 +348,7 @@
           </div>
         </div>
         <div class="member">
-          <img src="assets/images/image6.jpg" />
+          <img src="assets/images/image66.jpg" />
           <div class="photo-overlay">
             <h6>Anisa Adhikari</h6>
             <h6>Outreach Lead</h6>
@@ -514,18 +514,18 @@
           <div class="links">
             <div>
               <ul>
-                <a href="#"><li>lorem</li></a>
-                <a href="#"><li>ipsum</li></a>
-                <a href="#"><li>dolore</li></a>
-                <a href="#"><li>motore</li></a>
+                <a href="https://mlh.io/"><li>About MLH</li></a>
+                <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"><li>Code of Conduct</li></a>
+                <a href="https://mlh.io/community-values"><li>Community Values</li></a>
+                <!-- <a href="#"><li></li></a> -->
               </ul>
             </div>
             <div>
               <ul>
-                <a href="#"><li>ipsum</li></a>
-                <a href="#"><li>silore</li></a>
-                <a href="#"><li>miloo</li></a>
-                <a href="#"><li>dhitlo</li></a>
+                <a href="https://mlh.io/faq"><li>FAQs</li></a>
+                <a href="https://mlh.io/mentors"><li>Become a Mentor</li></a>
+                <a href="https://mlh.io/coaches"><li>Become a Coach</li></a>
+                <!-- <a href="#"><li>dhitlo</li></a> -->
               </ul>
             </div>
           </div>
@@ -578,7 +578,7 @@
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
       function sendMsg() {
-        const username = document.getElementById("form-name");
+        const username = document.getElementById("form-name").value;
         const email = document.getElementById("form-email");
         const msg = document.getElementById("form-message");
 
@@ -599,9 +599,9 @@
           return false;
         }
         Email.send({
-          SecureToken: "*******************",
-          To: "xyz.ioe@gmail.com",
-          From: "zyx@gmail.com",
+          SecureToken: "5692bf8e-7497-4814-89de-d77b76acf90d",
+          To: "66.amang@gmail.com",
+          From: "quantumhacknxtgen@gmail.com",
           Subject: "Web Contact Us",
           Body: `From: ${username},<br>Email: ${email},<br>Message: ${msg}`,
         }).then((message) => alert(message));
